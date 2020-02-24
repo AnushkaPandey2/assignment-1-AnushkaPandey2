@@ -22,6 +22,21 @@ public class contactlist {
             temp.setNext(node);
         }
     }
+    public boolean search(String dataname)
+    {
+        boolean response=false;
+        Node temp=head;
+        while(temp!=null)
+        {
+            if(temp.getDataname().equals(dataname))
+            {
+                response=true;
+                break;
+            }
+            temp=temp.getNext();
+        }
+        return response;
+    }
 
     }
 
