@@ -11,35 +11,5 @@ public class Node {
         previous=null;
     }
 
-    public Node getPrevious() {
-        return previous;
-    }
 
-    public void setPrevious(Node previous) {
-        this.previous = previous;
-    }
-
-    public String getDatacontactno() {
-        return datacontactno;
-    }
-
-    public void setDatacontactno(String datacontactno) {
-        this.datacontactno = datacontactno;
-    }
-
-    public String getDataname() {
-        return dataname;
-    }
-
-    public void setDataname(String dataname) {
-        this.dataname = dataname;
-    }
-
-    public Node getNext() {
-        return next;
-    }
-
-    public void setNext(Node next) {
-        this.next = next;
-    }
 }
